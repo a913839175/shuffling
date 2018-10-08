@@ -1,0 +1,109 @@
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, img, input, span, button {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+body{background-color: #1B1B1B}
+li {
+    list-style: none;
+}
+.bannerimg_ul li img{
+    width: 950px;
+    height: 328px;
+}
+.banner_wrap {
+    height: 380px;
+    padding: 12px;
+    padding-bottom: 0;
+    background: #fff;
+    background: rgba(255, 255, 255, .86);
+    width: 976px;
+    position: relative;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    box-shadow: 0 1px 3px rgba(167, 167, 167, .4);
+}
+.banner_wrap:hover .right {
+    width: 30px;
+}
+.banner_wrap:hover .left {
+    width: 30px;
+}
+.banner_wrap>ul li {
+    position: absolute;
+}
+.left,  .right {
+    position: absolute;
+    z-index: 999;
+    background: #000;
+    opacity: .4;
+    cursor: pointer;
+    font-weight: bold;
+    width: 0px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "黑体";
+    line-height: 40px;
+    text-align: center;
+    padding: 10px 0;
+    top: 150px;
+    overflow: hidden;
+    -webkit-transition-duration: 0.2s;/* Safari 和 Chrome */
+}
+.right {
+    right: 14px;
+}
+.on {
+    z-index: 9;
+}
+.banner_select {
+    text-align: center;
+    width: 980px;
+    left: 50%;
+    margin-left: -490px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
+.banner_select>ul {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.banner_select>ul>li {
+    float: left;
+    font-size: 12px;
+    display: inline-block;
+    width: 195px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 43px;
+    color: #666;
+    cursor: pointer;
+    border-bottom: transparent 3px solid;
+    position: relative;
+}
+.banner_select>ul>li a {
+    border-right: 1px solid #c0c0c0;
+    display: block;
+    height: 15px;
+    margin-top: 11px;
+}
+.last {
+    border: 0px !important;
+}
+.J_trigger_line{
+    background-color: #e6057d;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    z-index: 9999;
+    height: 3px;
+    width: 196px;
+    -webkit-transition-duration: 0.5s; /* Safari 和 Chrome */
+    left: 0px;
+}

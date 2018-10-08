@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <script src="./js/jquery.min.1.10.2.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+<div class="rightz"></div>   
+</body>
+<div class="banner_wrap">
+	<div class="left"> &lt;</div>
+	<div class="right">&gt;</div>
+	<ul class="bannerimg_ul">
+		<li class=""><img src="./images/1.jpg" ></li>
+		<li class=""><img src="./images/2.jpg" ></li>
+		<li class=""><img src="./images/3.jpg" ></li>
+		<li class=""><img src="./images/4.jpg" ></li>
+		<li class=""><img src="./images/5.jpg" ></li>
+	</ul>
+	<div class="banner_select">
+	<ul class="select_ul">
+		<li><a>苏泊尔VIP大牌日</a></li>
+		<li><a>新人专享2重礼</a></li>
+		<li><a>年货节预付</a></li>
+		<li><a>来场说走就走的履行</a></li>
+		<li><a class="last">新春年货 满199减100</a></li>
+	</ul>
+	<div class="J_trigger_line"></div>
+	</div>
+</div>
+</html>
+<script>
+	$('.rightz').shuffling({
+		pauseOnAction: false,  //是否显示左右方向箭头按钮
+        animationSpeed: 1000, //动画淡入淡出的时间（动画淡入淡出的时间默认为1000毫秒）
+        autoplay:true,        //动画是否需要自动播放
+        slideshowSpeed: 5000,  //动画自动运行的停留时间（动画自动运行的停留时间默认为3000毫毛）
+	});
+
+</script>
